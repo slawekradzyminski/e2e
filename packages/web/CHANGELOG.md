@@ -1,5 +1,11 @@
 # @e2e-dev/web
 
+## 0.16.2
+
+### Patch Changes
+
+- [#1976](https://github.com/e2e-inc/e2e/pull/1976) [`8eb3cc2`](https://github.com/e2e-inc/e2e/commit/8eb3cc27eabaf663a35c9930b861c851e0fbff81) Thanks [@okwasniewski](https://github.com/okwasniewski)! - A config that infers `web()` or `mobile()` type-checks again under pnpm with `declaration: true`. It failed with TS2883 since e2e 0.24.0. The factories now return `WebEngine` and `MobileEngine`, exported from each package.
+
 ## 0.16.1
 
 ### Patch Changes
